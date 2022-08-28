@@ -53,32 +53,4 @@ int merge(int a[],int *temp,int left,int mid,int right)
     }
     return inv;
 }
-   // def merge(self,a,c):
-    //     b=[]
-    //     i=0
-    //     j=0
-    //     while(i<len(a) and j<len(c)):
-    //         if(a[i]>c[j]):
-    //             b.append(c[j])
-    //             j+=1
-    //         else:
-    //             b.append(a[i])
-    //             i+=1
-            
-    //     while(i<len(a)):
-    //         b.append(a[i])
-    //         i+=1
-    //     while(j<len(c)):
-    //         b.append(c[j])
-    //         j+=1            
-    //     return b
-    // def mergesort(self,a,n):
-    //     if(n==1):
-    //         return a
-    //     else:
-    //         c=self.mergesort(a[:n//2],len(a[:n//2]))
-    //         b=self.mergesort(a[n//2:],len(a[n//2:]))
-    //         return self.merge(c,b)
-    // def sortArr(self, a, n):
-    //     return self.mergesort(a,n)
-        
+ 
